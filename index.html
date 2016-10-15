@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link src="css/sketchpad.css">
 		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="js/sketchpad.js"></script>
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+		<link href="css/sketchpad.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+		<div class="button-div">
+			<button type="button" id="ResetButton" onclick="redoSketchPad()">Reset</button>
+			<button type="button" id="RandomColor" onclick="randomColor()">Random Color</button>
+			<button type="button" id="TrailColor" onclick="trailColor()">Trailing</button>
+		</div><br>
+		<div class="container"></div>
 	</body>
 </html>
